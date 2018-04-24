@@ -21,5 +21,5 @@ def fibonacci(n):
     elif n > 2: 
         return fibonacci(n-1) + fibonacci(n-2) 
 # Test the function
-for n in range (1, 101): 
+for n in range (1, 1001): 
     print(n, " : ", fibonacci(n))
